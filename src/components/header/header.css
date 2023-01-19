@@ -1,0 +1,172 @@
+/* import fira code font */
+@font-face {
+  font-family: "Fira Code";
+  src: url("../../assets/fonts/Fira_Code/FiraCode-VariableFont_wght.ttf");
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #525252;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.midbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.midbar div {
+  display: flex;
+  justify-content: center;
+  width: 143px;
+  height: inherit;
+}
+
+p {
+  color: #a3a3a3;
+  font-family: "Fira Code";
+  font-size: 16px;
+  font-weight: 450;
+  font-style: normal;
+  margin: 16px 16px;
+}
+
+#hello {
+  color: #6f7ad7;
+}
+
+#logo-name {
+  color: #fafafa;
+  max-width: 183px;
+}
+
+div.hamburger-icon {
+  display: none;
+}
+
+.text-border {
+  border-right: 1px solid #525252;
+}
+
+.text-border a p:hover {
+  text-decoration: none;
+  color: #6f7ad7;
+}
+
+.text-border a {
+  text-decoration: none;
+  color: #6f7ad7;
+}
+
+.contact-me a p:hover {
+  text-decoration: none;
+  color: #6f7ad7;
+}
+
+.contact-me a {
+  text-decoration: none;
+  color: #6f7ad7;
+}
+
+.logo-name {
+  margin-left: 80px;
+}
+
+.contact-me {
+  margin-right: 80px;
+}
+
+/* Mobile */
+@media screen and (max-width: 650px) {
+  p {
+    color: #fafafa;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+  }
+
+  div.hamburger-icon {
+    display: block;
+    /* position: fixed; */
+    /* right: 17px; */
+    /* top: 17px; */
+    margin: 0 24px;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .navbar {
+    display: block;
+    overflow-y: scroll;
+    position: fixed;
+    /* top: 0px; */
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 0;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .midbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .midbar p {
+    padding: 16px 0;
+    font-size: 20px;
+  }
+
+  .contact-me p {
+    padding: 16px 0;
+    font-size: 20px;
+  }
+
+  .navbar.showMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #212121;
+    /* border-left: 1px solid #525252; */
+  }
+
+  .navbar.showMenu p {
+    margin-top: 30px;
+  }
+
+  .navbar .contact-me {
+    display: block;
+    margin: 0px;
+  }
+
+  .open-icon {
+    color: #fafafa;
+    width: 18px;
+  }
+
+  .close-icon {
+    color: #fafafa;
+    width: 18px;
+  }
+
+  .logo-name {
+    margin: 0 24px;
+    z-index: 2;
+  }
+
+  .text-border {
+    border-right: 0;
+  }
+}

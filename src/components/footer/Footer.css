@@ -1,0 +1,88 @@
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #525252;
+  height: 52px;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+
+.find-me {
+  margin-left: 80px;
+  border-right: 1px solid #525252;
+}
+
+.footer-name {
+  margin-right: 80px;
+  border-left: 1px solid #525252;
+}
+
+.find-me p {
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 21px;
+  color: #e5e5e5;
+}
+
+.footer-name p {
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 21px;
+  color: #e5e5e5;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials-border {
+  display: flex;
+  height: 52px;
+  border-right: 1px solid #525252;
+}
+
+.socials-border a {
+  margin: auto 12px;
+  width: 20px;
+}
+
+.socials-border a img {
+  align-self: center;
+  width: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .footer-right {
+    display: none;
+  }
+
+  .footer-left {
+    width: 100%;
+  }
+
+  .find-me {
+    margin-left: 0px;
+    margin-right: auto;
+	border-right: none;
+  }
+
+  .find-me p {
+    margin-right: auto;
+  }
+
+  .socials {
+    margin-right: 24px;
+	border-left: 1px solid #525252;
+  }
+}

@@ -1,0 +1,414 @@
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 120px;
+}
+
+.aboutTable {
+  display: flex;
+  /* position: absolute; */
+  /* left: 120px; */
+  /* right: 120px; */
+  /* top: 900px; */
+  border: 1px solid #525252;
+  width: 100%;
+  /* height: 800px; */
+}
+
+.contents {
+  display: flex;
+  width: 100%;
+}
+
+.about {
+  display: flex;
+  /* position: absolute; */
+  /* top: 800px; */
+  /* left: 120px; */
+  /* right: 120px; */
+}
+
+.about p {
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 48px;
+  color: #6f7ad7;
+}
+
+.about-table-left {
+  border-right: 1px solid #525252;
+  width: 30%;
+}
+
+.personal-info {
+  display: flex;
+  width: 70%;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #525252;
+  width: 60%;
+}
+
+.bioHeader,
+.interestsHeader {
+  display: flex;
+  height: 44px;
+  align-items: center;
+}
+
+.interestsHeader {
+  border-bottom: 1px solid #525252;
+}
+
+.bioHeader p {
+  font-size: 14px;
+  width: 30%;
+}
+
+.bioHeader p:nth-child(3),
+.interestsHeader p:nth-child(3) {
+  color: #a3a3a3;
+}
+
+.bioHeader p:nth-child(1),
+.bioHeader p:nth-child(2) {
+  display: none;
+}
+
+.border-left {
+  width: 70%;
+  height: 100%;
+  border-left: 1px solid #525252;
+}
+
+.interests {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 40%;
+}
+
+.interestsHeader p:nth-child(1),
+.interestsHeader p:nth-child(2) {
+  display: none;
+}
+
+.interestsContent {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 24px 30px;
+  margin: 60px 10%;
+  width: 250px;
+  height: 250px;
+  background: #fafafa;
+  border: 1px solid #1e2d3d;
+  border-radius: 15px;
+  border-top: 1px solid #525252;
+}
+
+.interestsContent p {
+  font-weight: 450;
+  font-size: 12px;
+  line-height: 170%;
+}
+
+.orange-text {
+  color: #e99287;
+}
+
+.grey-text {
+  color: #525252;
+}
+
+.personal-info-title {
+  display: flex;
+  padding-left: 40px;
+  height: 44px;
+  align-items: center;
+}
+
+.personal-info-title img {
+  width: 8.5px;
+}
+
+.tableofcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0px;
+  border-top: 1px solid #525252;
+  border-bottom: 1px solid #525252;
+  padding: 16px 0px;
+  height: 122px;
+}
+
+.bioTable,
+.interestsTable {
+  display: flex;
+  align-items: center;
+}
+
+.bioTable img:nth-child(1),
+.bioTable img:nth-child(2) {
+  margin-left: 12px;
+}
+
+.bioTable p,
+.interestsTable p {
+  margin: 0 8px;
+}
+
+.bioContent {
+  font-size: 18px;
+  line-height: 150%;
+  color: #d6d6d6;
+  font-weight: 400;
+  min-width: 70%;
+  max-width: 100%;
+  border-top: 1px solid #525252;
+  margin: 0;
+  padding: 16px 24px;
+}
+
+.interestsTable img:nth-child(1),
+.interestsTable img:nth-child(2) {
+  margin-left: 12px;
+}
+
+.contact-big {
+  display: flex;
+  padding: 0px 24px;
+  padding-left: 40px;
+}
+
+.contact-email-big {
+  display: flex;
+  border-top: 1px solid #525252;
+  border-bottom: 1px solid #525252;
+}
+
+.contact-email-big img {
+  margin-left: 12px;
+}
+
+.contact-small {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .aboutMe {
+    margin: 24px 24px;
+  }
+
+  .about {
+  }
+
+  .about p {
+    font-size: 16px;
+  }
+
+  .aboutTable {
+    display: flex;
+    align-items: center;
+    /* position: absolute; */
+    /* left: 40px; */
+    /* right: 24px; */
+    /* top: 580px; */
+    border: none;
+  }
+
+  .personal-info-title {
+    display: flex;
+    background: rgba(79, 93, 206, 0.32);
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  .personal-info-title img {
+    margin-left: 16px;
+  }
+
+  .personal-info-title p {
+    font-size: 14px;
+  }
+
+  .contents {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    border: none;
+  }
+
+  .tableofcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin-top: 28px;
+    border: none;
+    height: 100%;
+  }
+
+  .bioTable,
+  .interestsTable {
+    display: flex;
+    align-items: center;
+  }
+
+  .bioTable img:nth-child(1),
+  .bioTable img:nth-child(2) {
+    margin-left: 12px;
+  }
+
+  .bioTable p,
+  .interestsTable p {
+    margin: 0 8px;
+  }
+
+  .interestsTable img:nth-child(1),
+  .interestsTable img:nth-child(2) {
+    margin-left: 12px;
+  }
+
+  .bio {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: none;
+  }
+
+  .bioHeader {
+    display: flex;
+  }
+
+  .bioHeader p,
+  .interestsHeader p {
+    font-size: 14px;
+  }
+
+  .bioHeader p:nth-child(1) {
+    display: block;
+    color: #fafafa;
+    margin-left: 0;
+    min-width: 45%;
+    max-width: 100%;
+    margin-right: 0px;
+  }
+
+  .bioHeader p:nth-child(2) {
+    display: block;
+    color: #607b96;
+    margin-left: 0px;
+  }
+
+  .bioHeader p:nth-child(3) {
+    display: none;
+  }
+
+  .bioContent {
+    font-size: 12px;
+    line-height: 150%;
+    color: #d6d6d6;
+    font-weight: 400;
+    min-width: 95%;
+    max-width: 100%;
+    border: none;
+    padding: 0;
+    margin-top: 24px;
+  }
+
+  .interests {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 100%;
+  }
+
+  .interestsHeader {
+    border: none;
+  }
+
+  .interestsHeader p:nth-child(1) {
+    display: block;
+    color: #fafafa;
+    margin-left: 0px;
+  }
+
+  .interestsHeader p:nth-child(2) {
+    display: block;
+    color: #607b96;
+    margin-left: 0px;
+  }
+
+  .interestsHeader p:nth-child(3) {
+    display: none;
+  }
+
+  .interestsContent {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 24px 30px;
+    width: 250px;
+    height: 250px;
+    background: #fafafa;
+    border: 1px solid #1e2d3d;
+    border-radius: 15px;
+    margin-bottom: 34px;
+    margin: 5%;
+  }
+
+  .interestsContent p {
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 170%;
+  }
+
+  .orange-text {
+    color: #e99287;
+  }
+
+  .grey-text {
+    color: #525252;
+  }
+
+  .contact-email {
+    display: flex;
+  }
+
+  .contact-email p {
+    font-size: 14px;
+    color: #e0e0e0;
+  }
+
+  .contact-big,
+  .contact-email-big {
+    display: none;
+  }
+
+  .personal-info {
+    flex-direction: column;
+    width: 100%;
+    gap: 24px;
+  }
+
+  .about-table-left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: none;
+  }
+
+  .border-left {
+    display: none;
+  }
+}

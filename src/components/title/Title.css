@@ -1,0 +1,130 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 120px;
+  /* position: absolute; */
+  /* width: 1408px; */
+  /* height: 835px; */
+  /* left: 120px; */
+  /* right: 120px; */
+  /* top: 136px; */
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* position: absolute; */
+  /* top: 451px; */
+  /* left: 160px; */
+  /* width: 707px; */
+  /* height: 285px; */
+  /* margin-right: 140px; */
+}
+
+.snippets {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 600px;
+  display: flex;
+  padding: 0px;
+  gap: 12px;
+}
+
+.snippet {
+  width: 400px;
+}
+
+.snippet7,
+.snippet8 {
+  /* height: 110px; */
+}
+
+.snippet7,
+.snippet9,
+.snippet10 {
+  /* height: 182px; */
+}
+
+.hello {
+  font-size: 18px;
+  margin: 8px 0;
+  color: #e5e9f0;
+}
+
+.name {
+  font-size: 58px;
+  margin: 8px 0;
+  color: #e5e9f0;
+}
+
+.backend {
+  font-size: 28px;
+  margin: 8px 0;
+  color: #6f7ad7;
+}
+
+.checkout {
+  font-size: 16px;
+  margin: 8px 0;
+  color: #e5e5e5;
+}
+
+.github {
+  font-family: "Fira Code";
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  color: #e37264;
+}
+
+.empty {
+  height: 72px;
+}
+
+/* Mobile */
+@media screen and (max-width: 650px) {
+  .title {
+    /* position: absolute; */
+    /* top: 152px; */
+    /* left: 24px; */
+    /* width: 216px; */
+    height: 270px;
+    margin: 72px 24px;
+  }
+
+  .snippets {
+    display: none;
+  }
+
+  .hello {
+    font-size: 12px;
+  }
+
+  .name {
+    font-size: 32px;
+  }
+
+  .backend {
+    font-size: 20px;
+  }
+
+  .checkout {
+    font-size: 12px;
+  }
+
+  .github {
+    font-size: 12px;
+  }
+
+  .empty {
+    height: 88px;
+  }
+
+  .logo-name p {
+    margin: 16px 0px;
+  }
+}
