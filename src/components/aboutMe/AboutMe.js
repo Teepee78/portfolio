@@ -56,7 +56,7 @@ function AboutMe() {
                 variety of programming languages and frameworks.
                 <br />
                 <br />
-                My expertise includes Python, NodeJS, C, C++, Bash, SQL, HTML,
+                My expertise includes Python, NodeJS, TypeScript, C, C++, Bash, SQL, HTML,
                 CSS and Git tools. I have experience working with frameworks
                 such as FastAPI, ExpressJS, React, Django, Flask, and Bootstrap.
                 <br />
