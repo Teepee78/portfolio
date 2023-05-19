@@ -36,7 +36,7 @@ function Projects() {
 			<Cards
 					title="FashionAI"
 					lang="// Typescript(Next.JS)"
-					img={rec1}
+					img={rec2}
 					desc="FashionAI a Generative AI tool to create physical fashion an exciting, groundbreaking opportunity, which even Elon Musk has picked up on"
 					url="http://www.fashionai.org/"
 				/>
