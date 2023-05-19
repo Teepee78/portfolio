@@ -33,6 +33,13 @@ function Projects() {
 			</div>
 
 			<div className="projects-cards">
+			<Cards
+					title="FashionAI"
+					lang="// Typescript(Next.JS)"
+					img={rec1}
+					desc="FashionAI a Generative AI tool to create physical fashion an exciting, groundbreaking opportunity, which even Elon Musk has picked up on"
+					url="http://www.fashionai.org/"
+				/>
 				<Cards
 					title="Mumble"
 					lang="// Typescript(Next.JS/Node.JS)"
