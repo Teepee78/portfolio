@@ -52,7 +52,7 @@ function AboutMe() {
 								<div className="border-left"></div>
 							</div>
 							<p className="bioContent">
-								I am a software developer with one year of experience in a
+								I am a software developer with experience in a
 								variety of programming languages and frameworks.
 								<br />
 								<br />
