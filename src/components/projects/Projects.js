@@ -1,4 +1,5 @@
 import "./Projects.css";
+
 import rec1 from "../../assets/svg/Rectangle 42.svg";
 import rec2 from "../../assets/svg/Rectangle 43.svg";
 
@@ -45,7 +46,7 @@ function Projects() {
 					lang="// Typescript(Next.JS/Node.JS)"
 					img={rec1}
 					desc="Mumble is a digital marketplace that connects music producers, beat makers and sound engineers to their desired clients."
-					url="https://mumble-client.vercel.app"
+					url="https://mumble.com.ng"
 				/>
 				<Cards
 					title="Innov8IQ"
