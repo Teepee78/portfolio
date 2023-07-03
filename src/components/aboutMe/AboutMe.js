@@ -1,9 +1,10 @@
 import "./AboutMe.css";
-import rightArrow from "../../assets/svg/rightarrow.svg";
-import purpleDir from "../../assets/svg/purplediricon.svg";
+
 import downArrow from "../../assets/svg/downarrow.svg";
 import greenDir from "../../assets/svg/greendiricon.svg";
 import mailIcon from "../../assets/svg/mail-icon.svg";
+import purpleDir from "../../assets/svg/purplediricon.svg";
+import rightArrow from "../../assets/svg/rightarrow.svg";
 
 function AboutMe() {
 	return (
@@ -58,8 +59,9 @@ function AboutMe() {
 								<br />
 								My expertise includes Python, NodeJS, TypeScript, C, NextJS,
 								React, C++, Bash, SQL, HTML, CSS and Git tools. I have
-								experience working with frameworks such as FastAPI, ExpressJS,
-								React, Django, Flask, and Bootstrap.
+								experience working with frameworks such as FastAPI, ExpressJS, NestJS,
+								React, Django, Flask, and Bootstrap. I have experience deploying applications
+								with Docker, AWS, GCP, Digital Ocean and Vercel.
 								<br />
 								<br />
 								I am well-versed in using Git for version control and
