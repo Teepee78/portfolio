@@ -38,11 +38,11 @@ function Header() {
             </a>
           </div>
 
-          <div className="text-border">
-            <a href="#projects" onClick={handleToggle}>
-              <p>_projects</p>
-            </a>
-          </div>
+          {/*<div className="text-border">*/}
+          {/*  <a href="#projects" onClick={handleToggle}>*/}
+          {/*    <p>_projects</p>*/}
+          {/*  </a>*/}
+          {/*</div>*/}
         </div>
 
         {/* <div className='place-holder text-border'></div> */}

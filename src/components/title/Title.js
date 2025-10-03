@@ -11,10 +11,13 @@ function Title () {
       <div className="main">
         <p className="hello">Hello, I am</p>
         <p className="name">Toluwalase Phillips</p>
-        <p className="backend">Software developer</p>
+        <p className="backend">Senior Software Engineer</p>
         <div className="empty"></div>
         <p className="checkout">// Check out my Github page</p>
-        <a href="https://github.com/Teepee78" target="_blank" className="github" rel="noreferrer">"https://github.com/Teepee78"</a>
+        <a href="https://github.com/Teepee78" target="_blank" className="github" rel="noreferrer">"https://github.com/toluwalase78"</a>
+        <div className="empty"></div>
+        <p className="checkout">// Check out my Resume</p>
+        <a href="https://github.com/Teepee78" target="_blank" className="github" rel="noreferrer">"https://flowcv.com/resume/an92pu54rd"</a>
       </div>
 
       <div className='snippets'>

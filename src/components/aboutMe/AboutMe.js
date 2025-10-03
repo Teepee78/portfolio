@@ -53,13 +53,13 @@ function AboutMe() {
 								<div className="border-left"></div>
 							</div>
 							<p className="bioContent">
-								I am a software developer with experience in a
+								I am a senior software engineer with over 4 years of experience in a
 								variety of programming languages and frameworks.
 								<br />
 								<br />
-								My expertise includes Python, NodeJS, TypeScript, C, NextJS,
+								My expertise includes Python, NodeJS, TypeScript, Go, Java, C,
 								React, C++, Bash, SQL, HTML, CSS and Git tools. I have
-								experience working with frameworks such as FastAPI, ExpressJS, NestJS,
+								experience working with frameworks such as FastAPI, ExpressJS, NestJS, NextJs,
 								React, Django, Flask, and Bootstrap. I have experience deploying applications
 								with Docker, AWS, GCP, Digital Ocean and Vercel.
 								<br />
