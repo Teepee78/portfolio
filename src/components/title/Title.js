@@ -17,7 +17,7 @@ function Title () {
         <a href="https://github.com/Teepee78" target="_blank" className="github" rel="noreferrer">"https://github.com/toluwalase78"</a>
         <div className="empty"></div>
         <p className="checkout">// Check out my Resume</p>
-        <a href="https://github.com/Teepee78" target="_blank" className="github" rel="noreferrer">"https://flowcv.com/resume/an92pu54rd"</a>
+        <a href="https://flowcv.com/resume/an92pu54rd" target="_blank" className="github" rel="noreferrer">"https://flowcv.com/resume/an92pu54rd"</a>
       </div>
 
       <div className='snippets'>
