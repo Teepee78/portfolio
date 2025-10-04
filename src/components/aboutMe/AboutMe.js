@@ -57,7 +57,7 @@ function AboutMe() {
 								variety of programming languages and frameworks.
 								<br />
 								<br />
-								My expertise includes Python, NodeJS, TypeScript, Go, Java, C,
+								My expertise includes Python, NodeJS, TypeScript, Go, Java, Rust, C,
 								React, C++, Bash, SQL, HTML, CSS and Git tools. I have
 								experience working with frameworks such as FastAPI, ExpressJS, NestJS, NextJs,
 								React, Django, Flask, and Bootstrap. I have experience deploying applications
